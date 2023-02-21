@@ -18,6 +18,7 @@ function Product(){
                 console.log(rep.data.produits)
                 setListProd(rep.data.produits)
                 setTotalPages(rep.data.totalPages)
+
             })
 
         }
