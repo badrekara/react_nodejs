@@ -5,7 +5,7 @@ const userCtr=require('../controllers/userController')
 //-------------------user----------------------------
 routes.post('/register',userCtr.register)
 routes.post('/login',userCtr.login)
-routes.get('/test',)
+routes.get('/test',userCtr.test)
 
 routes.route('/products').get(getAllProducts)
 routes.route('/products/:idproduct').get(getProductById)
